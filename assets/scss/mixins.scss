@@ -1,0 +1,11 @@
+//Mixin pour la média-queries de la version desktop
+@mixin responsive-desktop {
+    @media screen and (min-width: 750px) {
+        @content;
+    }
+}
+@mixin responsive-desktop-600px {
+    @media screen and (min-width: 600px) {
+        @content;
+    }
+}
